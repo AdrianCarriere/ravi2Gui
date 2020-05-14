@@ -12,7 +12,8 @@ class Gui(QMainWindow):
     def initUI(self):
         self.statusBar().showMessage('Ready')
 
-        self.setGeometry(300, 300, 1280, 720)
+        self.setMinimumSize(1280, 720)
+        self.setGeometry(0, 0, 1280, 720)
         self.setWindowTitle('Fenêtre')
         self.show()
 
