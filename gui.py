@@ -138,7 +138,7 @@ class MyTableWidget(QWidget):
 
 
         print(dictionnaire)
-        with open('data.json', 'w') as fp :
+        with open('data.json', 'w') as fp:
             json.dump(dictionnaire, fp)
 
 
